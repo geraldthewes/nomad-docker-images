@@ -1,4 +1,4 @@
-VERSION=20251105
+VERSION=$(shell date +%Y%m%d)
 
 .PHONY: build publish
 
